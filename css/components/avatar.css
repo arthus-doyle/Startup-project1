@@ -1,0 +1,31 @@
+.avatar-section {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	padding: 40px 20px;
+ 	background-color: #ffffff;
+ }
+ .avatar-container {
+ 	display: flex;
+ 	gap: 20px;
+ 	max-width: 800px;
+ 	align-items: center;
+ 	background-color: #f9f9f9;
+ 	padding: 20px;
+ 	border-radius: 10px;
+ 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
+ .avatar img {
+  	width: 100px;
+  	height: 100px;
+  	border-radius: 50%;
+  	border: 3px solid #ff6b6b;
+  	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .description p {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 1.1rem; 
+ 	color: #444;
+  margin-bottom: 15px
+
+}
